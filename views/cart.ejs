@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <h1>Your Cart</h1>
+    <ul>
+      <% cart.forEach(function(item) { %>
+        <li><%= item.name %> - €<%= item.price %></li>
+      <% }); %>
+    </ul>
+    <form action="/returnCart" method="post">
+      <button type="submit">Return to Procurement System</button>
+    </form>
+  </body>
+</html>
