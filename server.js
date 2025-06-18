@@ -26,7 +26,7 @@ app.post('/punchout', (req, res) => {
     <Status code="200" text="OK"/>
     <PunchOutSetupResponse>
       <StartPage>
-        <URL>http://localhost:${port}/shop</URL>
+        <URL>https://punchout-demo.onrender.com/shop</URL>
       </StartPage>
     </PunchOutSetupResponse>
   </Response>
