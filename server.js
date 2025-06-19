@@ -11,7 +11,7 @@ app.use(express.static('public'));
 const sampleProducts = [
   { id: 'FAK-001', name: 'First Aid Kit', price: 29.99, category: 'firstaid' },
   { id: 'CLN-001', name: 'Cleaner Spray', price: 7.5, category: 'cleaning' },
-  { id: 'SNP-001', name: 'Sanitary Wipes', price: 5.0, category: 'sanitary' }
+  { id: 'SNP-001', name: 'Sanitary Wipes', price: 55.0, category: 'sanitary' }
 ];
 
 let currentCart = [];
