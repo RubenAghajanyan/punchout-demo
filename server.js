@@ -11,7 +11,7 @@ app.use(express.static('public'));
 const products = [
   { id: 1, name: 'Zinc Oxide Tape 1.25cm x 10m', price: 8.91, category: 'firstaid', image: 'https://martinservices.ie/wp-content/uploads/2021/11/613_relitape_contents_1-thegem-product-justified-portrait-m.jpg' },
   { id: 2, name: 'Z-Fold White 2 ply – Professional', price: 24.96, category: 'cleaning', image: 'https://martinservices.ie/wp-content/uploads/2021/09/h.9655132_2-thegem-product-justified-portrait-m.jpg' },
-  { id: 3, name: 'White Roll Towel (200 m x 6)', price: 62.78, category: 'sanitary', image: 'https://martinservices.ie/wp-content/uploads/2021/09/nw.51282_versatwin_2ply_toilet_tissue_125mx24_1_2-thegem-product-justified-portrait-m.jpg' }
+  { id: 3, name: 'White Roll Towel (200m x 6)', price: 62.78, category: 'sanitary', image: 'https://martinservices.ie/wp-content/uploads/2021/09/nw.51282_versatwin_2ply_toilet_tissue_125mx24_1_2-thegem-product-justified-portrait-m.jpg' }
 ];
 
 let cart = [];
