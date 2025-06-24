@@ -1,15 +1,15 @@
+
 {
-  "name": "punchout-server",
-  "version": "1.0.1",
-  "description": "PunchOut Catalog with Category Support",
+  "name": "punchout-martin-style-quantity-ejs",
+  "version": "1.0.0",
+  "description": "PunchOut Catalog with Martin Services style, EJS, and quantity support",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "ejs": "^3.1.9",
-    "body-parser": "^1.20.2",
-    "xml2js": "^0.4.23"
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "body-parser": "^1.19.0"
   }
 }
